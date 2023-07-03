@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+  font-family: 'Monsterrat', sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Rizal Dep Section*/
+#Rizal{
+    background-image: url('bgrizz.jpg');
+    background-size: cover;
+    background-position: top-center;
+    position: relative;
+}
+#Rizal::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+#Rizal h1:nth-child(1){
+    animation-delay: 1s;
+}
+#Rizal h1:nth-child(2){
+    animation-delay: 2s;
+}
+#Rizal .Rizal{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 50px;
+    justify-content: flex-start;
+}
+#Rizal h1{
+    display: block;
+    width: fit-content;
+    font-size: 10rem;
+    position: relative;
+    color: transparent;
+    animation: text_reveal .5s ease forwards;
+    animation-delay: 1s;
+}
+#Rizal h1 span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0%;
+    background-color: black;
+    animation: text_reveal_box 1s ease;
+    animation-delay: .3s;
+}
+#Rizal h1:nth-child(1) span{
+    animation-delay: .3s;
+}
+#Rizal h1:nth-child(2) span{
+    animation: text_reveal_name .5s ease forwards;
+    animation-delay: 1s;
+}
+#Rizal .cta {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+#Rizal .cta:hover {
+    color: white;
+    background-color: burlywood;
+}
+
+/* Rizal Dep Section Ends Here */
+
+/* Spain Infos */
+
+#firstline {
+    background-image: url('Spain.jpg');
+    background-size: cover;
+    background-position: top-center;
+    position: relative;
+    font-size: 3rem;
+    text-align: left;
+}
+#firstline .service-top{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 1in 1in 1in 1in;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+#firstline .service-top .p{
+    font-size: 1rem;
+}
+#firstline .ctb {
+    display: inline-block;
+    padding: 10px 30px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    margin-left: 750px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+
+    
+}
+#firstline .ctb:hover {
+    color: white;
+    background-color: black;
+}
+
+/* End of First Line*/
+
+/* Second Line */
+
+#secondline {
+    background-image: url('SG.jpg');
+    background-size: cover;
+    background-position: top-center;
+    position: relative;
+    font-size: 3rem;
+    text-align: right;
+    color: white;
+}
+#secondline .service-top{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 1in 1in 1in 1in;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+#secondline .service-top .p{
+    font-size: 1rem;
+}
+#secondline .ctc {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    margin-right: 750px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+
+    
+}
+#secondline .ctc:hover {
+    color: black;
+    background-color: white;
+}
+
+/* End of Second Line */
+
+/* Third Line */
+
+#thirdline {
+    background-image: url('COL.jpg');
+    background-size: cover;
+    background-position: top-center;
+    position: relative;
+    font-size: 3rem;
+    text-align: left;
+    color: black;
+}
+#thirdline .service-top{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 1in 1in 1in 1in;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+#thirdline .service-top .p{
+    font-size: 1rem;
+}
+#thirdline .ctd {
+    display: inline-block;
+    padding: 10px 30px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    margin-left: 750px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+
+    
+}
+#thirdline .ctd:hover {
+    color: white;
+    background-color: black;
+}
+
+/* End of Third Line */
+
+/* Fourth Line */
+
+#fourthline {
+    background-image: url('ITALY.jpg');
+    background-size: cover;
+    background-position: top-center;
+    position: relative;
+    font-size: 3rem;
+    text-align: right;
+    color: black;
+}
+#fourthline .service-top{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 1in 1in 1in 1in;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+#fourthline .service-top .p{
+    font-size: 1rem;
+}
+#fourthline .cte {
+    display: inline-block;
+    padding: 10px 30px;
+    color: black;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    margin-right: 750px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+
+    
+}
+#fourthline .cte:hover {
+    color: white;
+    background-color: black;
+}
+
+/* End of Fourth Line */
+
+/* Fifth Line */
+
+#fifthline {
+    background-image: url('Bs.jpg');
+    background-size: cover;
+    background-position: top-center;
+    position: relative;
+    font-size: 3rem;
+    text-align: left;
+    color: white;
+}
+#fifthline .service-top{
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin: 1in 1in 1in 1in;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+#fifthline .service-top .p{
+    font-size: 1rem;
+}
+#fifthline .ctf {
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    margin-left: 750px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+
+    
+}
+#fifthline .ctf:hover {
+    color: black;
+    background-color: white;
+}
+
+@keyframes text_reveal_box{
+    50%{
+        width: 100%;
+        left: 0;
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes text_reveal{
+    100%{
+        color: white;
+    }
+}
+
+@keyframes text_reveal_name{
+    100%{
+        color: burlywood;
+        font-weight: 500px;
+    }
+}
+    
+@media only screen and (min-width:768px){
+    .cta {
+        font-size: 1rem;
+        padding: 20px 60px;
+    }
+}
